@@ -14,7 +14,7 @@ const WeatherDisplay =({WeatherData})=>{
             </div>
             <div className="ConditionDiv">
                 <div className="condText">Conditions</div>
-                <p style={temperatureStyle} className="value">{WeatherData.conditions}</p>
+                <p className="value">{WeatherData.conditions}</p>
             </div>
         </div>
     )
