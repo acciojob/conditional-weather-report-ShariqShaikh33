@@ -16,7 +16,6 @@ body{
 }
 
 .value{
-    border: 5px solid black;
     border-radius: 25px;
     background: white;
     height: 100px;
@@ -25,9 +24,6 @@ body{
     font-weight: bold;
     width: 100%;
     font-size: 56px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     text-align: center;
 }
 
