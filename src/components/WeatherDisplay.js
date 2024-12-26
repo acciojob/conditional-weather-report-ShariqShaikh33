@@ -9,10 +9,10 @@ const WeatherDisplay =({WeatherData})=>{
         <div className="mainWrapper">
             <div className="TemperatureDiv">
                 
-                <span style={temperatureStyle} className="value">Temperatur: {WeatherData.temperature}</span>
+                <p><span style={temperatureStyle} className="value">Temperature: {WeatherData.temperature}</span></p>
             </div>
             <div className="ConditionDiv">
-                <span className="value">Conditions: {WeatherData.conditions}</span>
+                <p><span className="value">Conditions: {WeatherData.conditions}</span></p>
             </div>
         </div>
     )
